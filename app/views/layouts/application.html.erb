@@ -12,17 +12,17 @@
 	<body>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-
 			<div class="navbar-header">
-
 				<img alt="Brand" class="icon" src="https://www.iconexperience.com/_img/g_collection_png/standard/256x256/mosquito.png">
-				<a class="navbar-brand" href="#">Digital Inspector</a>
+				<%= link_to 'Digital Inspector', root_path, class: 'navbar-brand' %>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">About</a></li>
+					<li class="active"><%= link_to root_path do %>
+						Home <span class="sr-only">(current)</span>
+						<% end %></li>
+					<li><%= link_to 'More Information', controller: 'static_pages', action: 'moreInfo' %></li>
 				</ul>
 
 			</div>
