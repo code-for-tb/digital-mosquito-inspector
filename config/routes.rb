@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root to: 'static_pages#checklist'
   get 'static_pages/checklist'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'static_pages/moreInfo', as: 'moreInfo'
 end

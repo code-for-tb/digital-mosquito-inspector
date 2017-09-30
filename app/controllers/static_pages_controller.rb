@@ -17,6 +17,6 @@ class StaticPagesController < ApplicationController
       "If the pool cover is left on for an extended period, water and organic matter can collect. This creates a good breeding site for mosquitoes."
     ]
   end
-
-
+  def moreInfo
+  end
 end
