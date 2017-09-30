@@ -1,10 +1,13 @@
 <div class="check-list">
-	<% @checklistItems.each do |item| %>
-  <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value="">
-    <%= item %>
-  </label>
-  <br>
-  <% end %>
+	<ul class="list-group">
+		<% @checklistItems.each do |item| %>
+			<li class="list-group-item">
+			  <label class="form-check-label">
+			    <input class="form-check-input" type="checkbox" value="">
+			    <%= item %>
+			  </label>
+			</li>
+  	<% end %>
+	</ul>
 </div>
 
