@@ -7,8 +7,7 @@ class StaticPagesController < ApplicationController
       "Eliminate any standing water that collects on your property.",
       "Change the water and clean birdbaths weekly. Cleaning the bath removes organic matter and changing the water removes any mosquito eggs or larvae.",
       "Clear leaves and twigs from eavestroughs, storm and roof gutters throughout the summer.",
-      "Check flat roofs frequently and remove any standing water.",
-      "Around Your Yard and Lawn",
+      "Check flat roofs frequently and remove any standing water around Your Yard and Lawn",
       "Remove dense brush and weeds where mosquitoes rest and hide during the day.",
       "Turn over compost piles on a regular basis.",
       "Fill in any low depression areas in lawns.",
@@ -18,4 +17,6 @@ class StaticPagesController < ApplicationController
       "If the pool cover is left on for an extended period, water and organic matter can collect. This creates a good breeding site for mosquitoes."
     ]
   end
+
+
 end
