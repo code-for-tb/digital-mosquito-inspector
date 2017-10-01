@@ -26,6 +26,26 @@
 			</div>
 		</div>
 	</nav>
+
+	<% flash.each do |message_type, message| %>
+	      <% if flash[:notice] %>
+	      	<div class="alert alert-info" role="alert">
+			      <%= message.html_safe %>
+					</div>
+	      <% end %>
+	      <% if flash[:danger] %>
+	      	<div class="alter alert-danger" role="alert">
+			      <%= message.html_safe %>
+			    </div>
+	      <% end %>
+	      <% if flash[:success] %>
+	      	<div class="alter alert-success" role="alert">
+	      		<%= message.html_safe %>
+	      	</div>
+	      <% end %>
+	    </div>
+	  </div>
+	<% end %>
 	<%= yield %>
 	</body>
 </html>
