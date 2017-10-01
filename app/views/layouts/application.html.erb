@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<!-- TODO: fix these two font calls -->
+    <meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,25 +13,7 @@
 	</head>
 	<body>
 	<%= render 'shared/navbar' %>
-	<% flash.each do |message_type, message| %>
-	      <% if flash[:notice] %>
-	      	<div class="alert alert-info" role="alert">
-			      <%= message.html_safe %>
-					</div>
-	      <% end %>
-	      <% if flash[:danger] %>
-	      	<div class="alter alert-danger" role="alert">
-			      <%= message.html_safe %>
-			    </div>
-	      <% end %>
-	      <% if flash[:success] %>
-	      	<div class="alter alert-success" role="alert">
-	      		<%= message.html_safe %>
-	      	</div>
-	      <% end %>
-	    </div>
-	  </div>
-	<% end %>
+	<%= render 'shared/flash' %>
 	<%= yield %>
 	</body>
 </html>
