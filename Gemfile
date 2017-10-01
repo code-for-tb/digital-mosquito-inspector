@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
@@ -33,8 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-# Use figaro to manage secrets
-gem 'figaro'
+
 
 
 # Use Capistrano for deployment
@@ -43,6 +42,27 @@ gem 'figaro'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Use figaro to manage secrets
+  gem 'figaro'
+  # test JavaScript with Jasmine
+  gem 'jasmine'
+  # test rails with rspec
+  gem 'rspec-rails'
+  # guard provides automated testing
+  gem 'guard-rspec', require: false
+  gem 'guard-jasmine', require: false
+  # additional rails testing
+  gem 'rails-controller-testing'
+  # letter opener let's us test emails in a web-browser
+  gem 'letter_opener'
+  # Rubocop lints our ruby code
+  gem 'rubocop', require: false
+  # gives our code a sniff test
+  gem 'reek'
+  # provides factories for testing models
+  gem 'factory_girl_rails'
+  # capybara provides integration testing
+  gem 'capybara'
 end
 
 group :development do
@@ -52,6 +72,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
