@@ -42,11 +42,16 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'rspec-rails'
   # Use figaro to manage secrets
   gem 'figaro'
+  # test JavaScript with Jasmine
+  gem 'jasmine'
+  # test rails with rspec
+  gem 'rspec-rails'
   # guard provides automated testing
   gem 'guard-rspec', require: false
+  gem 'guard-jasmine', require: false
+  # additional rails testing
   gem 'rails-controller-testing'
   # letter opener let's us test emails in a web-browser
   gem 'letter_opener'
