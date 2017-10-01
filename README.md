@@ -1,6 +1,6 @@
 # Digital Mosquito Inspector
 
-## Created by: Sam Harden, Shenole Latimer, and John Brock.
+### Created by: Sam Harden, Shenole Latimer, and John Brock.
 
 This web app is being designed for Code for Tampa Bay's Hack Zika 2017. It's designed to help citizens **identify** potential mosquito breeding sites as well as **teach** citizens about mosquitos and mosquito control.
 
