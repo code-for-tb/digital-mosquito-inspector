@@ -7,13 +7,13 @@ class StaticPagesController < ApplicationController
       "Eliminate any standing water that collects on your property.",
       "Change the water and clean birdbaths weekly. Cleaning the bath removes organic matter and changing the water removes any mosquito eggs or larvae.",
       "Clear leaves and twigs from eavestroughs, storm and roof gutters throughout the summer.",
-      "Check flat roofs frequently and remove any standing water around Your Yard and Lawn",
+      "Check flat roofs frequently and remove any standing water around your yard and lawn",
       "Remove dense brush and weeds where mosquitoes rest and hide during the day.",
       "Turn over compost piles on a regular basis.",
       "Fill in any low depression areas in lawns.",
       "Immediately throw away raked leaves and other decaying items, such as apples or berries, that fall from trees. If they are not to be composted, place them in a closed container until disposal.",
       "Let your neighbours know about potential mosquito breeding grounds on their property.",
-      "Locate ponds in an open space not sheltered from the wind. The wind may cause movement on the surface of the water that will deter female mosquitoes from laying their eggs at that site.",
+      "Construct ponds in an open space not sheltered from the wind. The wind may cause movement on the surface of the water that will deter female mosquitoes from laying their eggs at that site.",
       "If the pool cover is left on for an extended period, water and organic matter can collect. This creates a good breeding site for mosquitoes."
     ]
   end
