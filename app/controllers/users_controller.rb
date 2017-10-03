@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
+  attr_accessor :first_name, :last_name, :state, :zip, :address, :city
   before_action :set_user, only: [:show, :edit, :update]
+
   def index
     @users = User.all
   end
