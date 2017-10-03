@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "card";
 @import "static_pages";
 @import "users.scss";
 @import "colors";
@@ -7,4 +8,3 @@
 body { background-color: $off-white; }
 #icon {	width: 50px; }
 
-.container-fluid {}
