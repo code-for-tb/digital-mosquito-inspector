@@ -1,0 +1,976 @@
+Started GET "/" for 127.0.0.1 at 2017-10-01 18:24:38 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 4382ms (Views: 4370.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-01 18:24:48 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 106ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 18:24:49 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 110ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 18:24:51 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 111ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-01 18:24:52 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 18:24:53 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 84ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:28:21 -0400
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.6) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.6) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.7ms)
+  [1m[35m (65.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (25.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (29.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8420422316885352480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (6.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20171001183742)
+  [1m[35m (6.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (26.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171001183742"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (11.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-10-02 01:28:40.998450"], ["updated_at", "2017-10-02 01:28:40.998450"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8420422316885352480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (5.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:29:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 2185ms (Views: 2174.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-01 21:33:04 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_flash.html.erb (1.3ms)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:33:09 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 79ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:33:10 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 82ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-01 21:33:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (29.2ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flash.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 74.5ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-01 21:33:18 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-01 21:33:19 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:33:20 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-01 21:33:21 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 83ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-01 21:33:22 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-01 21:33:23 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-01 21:33:24 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 81ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-02 11:49:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (26.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 527ms (Views: 515.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-02 11:50:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (36.8ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 145ms (Views: 91.8ms | ActiveRecord: 34.2ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-02 11:50:04 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_flash.html.erb (1.1ms)
+Completed 200 OK in 68ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-02 11:50:05 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.6ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 89ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-02 11:50:06 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 96ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-02 11:50:07 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 92ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-02 11:50:13 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (6.8ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_flash.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-02 11:50:14 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (2.7ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 98ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-02 16:33:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (5.2ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 2040ms (Views: 2027.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-02 16:33:20 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.0ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_flash.html.erb (0.6ms)
+Completed 200 OK in 101ms (Views: 72.3ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-02 16:33:23 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.9ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flash.html.erb (0.6ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-02 16:33:27 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flash.html.erb (1.0ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-02 16:33:28 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 19:46:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.6) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.6) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.6) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.6) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.6) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.6) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.3ms)
+  [1m[35m (28.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8420422316885352480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserFields (20171002195732)
+  [1m[35m (6.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (33.0ms)[0m  [1m[35mALTER TABLE "users" ADD "first_name" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "last_name" character varying[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "state" character varying[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "zip" character varying[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "address" character varying[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "city" character varying[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171002195732"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8420422316885352480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-10-03 19:47:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (4.9ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 2178ms (Views: 2163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-03 19:47:43 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 19:47:49 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_flash.html.erb (1.0ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-03 19:47:51 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (13.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (23.0ms)
+  Rendered shared/_navbar.html.erb (2.0ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 80ms (Views: 61.4ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-03 19:47:55 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (30.1ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 103ms (Views: 79.3ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-03 19:48:00 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 77ms (Views: 72.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-03 19:48:01 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.2ms)
+  Rendered shared/_navbar.html.erb (2.3ms)
+  Rendered shared/_flash.html.erb (0.6ms)
+Completed 200 OK in 78ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-10-03 19:48:38 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJoaUlh9/C5In9GC64rc/z6UiNcbNzUxeJtx+nwH48eUs2yHmOVgu21kVekxRTvg11DZBWUuWHZDTBEADjFn0w==", "user"=>{"first_name"=>"Sam", "last_name"=>"Harden", "address"=>"123 Street Way", "city"=>"Tampa", "state"=>"FL", "zip"=>"33618", "email"=>"samharden@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "samharden@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Exists (10.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "samharden@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (5.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "first_name", "last_name", "state", "zip", "address", "city") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["email", "samharden@gmail.com"], ["encrypted_password", "$2a$11$AuFhESnkUA5SJ2CsULcsUupCU0xPMFtcr3wbzGuZUZzKYSWalJynC"], ["created_at", "2017-10-03 23:48:39.062077"], ["updated_at", "2017-10-03 23:48:39.062077"], ["first_name", "Sam"], ["last_name", "Harden"], ["state", "FL"], ["zip", "33618"], ["address", "123 Street Way"], ["city", "Tampa"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-10-03 23:48:39.070729"], ["last_sign_in_at", "2017-10-03 23:48:39.070729"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2017-10-03 23:48:39.071665"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 207ms (ActiveRecord: 38.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 19:48:39 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.6ms)
+  Rendered shared/_flash.html.erb (1.0ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-03 19:48:46 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (2.5ms)
+  Rendered shared/_flash.html.erb (10.7ms)
+Completed 200 OK in 72ms (Views: 67.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-03 19:48:50 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.2ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8420422316885352480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateAdminUsers (20171004001211)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (50.0ms)[0m  [1m[35mCREATE TABLE "admin_users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_admin_users_on_email" ON "admin_users"  ("email")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_admin_users_on_reset_password_token" ON "admin_users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171004001211"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateActiveAdminComments (20171004001215)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "active_admin_comments" ("id" serial primary key, "namespace" character varying, "body" text, "resource_type" character varying, "resource_id" integer, "author_type" character varying, "author_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_active_admin_comments_on_resource_type_and_resource_id" ON "active_admin_comments"  ("resource_type", "resource_id")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_active_admin_comments_on_author_type_and_author_id" ON "active_admin_comments"  ("author_type", "author_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_active_admin_comments_on_namespace" ON "active_admin_comments"  ("namespace")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171004001215"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8420422316885352480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-03 20:12:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (1.8ms)
+Started GET "/" for 127.0.0.1 at 2017-10-03 20:13:06 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (90.1ms)
+  [1m[36mUser Load (19.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (29.4ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+  Rendered shared/_flash.html.erb (0.6ms)
+Completed 200 OK in 14608ms (Views: 14529.7ms | ActiveRecord: 66.1ms)
+
+
+Completed 200 OK in 400ms (Views: 371.2ms | ActiveRecord: 25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 20:13:09 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (3.9ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 247ms (Views: 244.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-10-03 20:13:16 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-10-03 20:13:16 -0400
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (40.7ms)
+Completed 200 OK in 318ms (Views: 278.4ms | ActiveRecord: 17.5ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-10-03 20:13:44 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TFvqi817cA6ueBeH3IoY8ZrsHito7yPtG/vqy+1gWeSTgxpTFkzwX9jR34u7/g1AOnHFN0nMTvp9oCYiRnnBA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (14.9ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 18ms (ActiveRecord: 14.9ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6TFvqi817cA6ueBeH3IoY8ZrsHito7yPtG/vqy+1gWeSTgxpTFkzwX9jR34u7/g1AOnHFN0nMTvp9oCYiRnnBA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (1.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.1ms)
+Completed 200 OK in 267ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-10-03 20:13:58 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6YVnkM2gnbQ4bE7hL59/2C34nJGSmpaFSYDT+xO5q8A2XZdIFpcd5U7Fhu1I62ppjWVHjbO5+5Iv2x8SuKAzA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 1.1ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6YVnkM2gnbQ4bE7hL59/2C34nJGSmpaFSYDT+xO5q8A2XZdIFpcd5U7Fhu1I62ppjWVHjbO5+5Iv2x8SuKAzA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (19.4ms)
+Completed 200 OK in 300ms (Views: 175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-10-03 20:16:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (2.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (45.4ms)
+Completed 200 OK in 725ms (Views: 696.9ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-10-03 20:16:46 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n87N5BFbosEMBXXwU1UxhMsvhPM7Uc6V0MUO7p4BfY/ksa4ncjd8wEnf0tBiyOHSDa3zn0vVQyGNXGHdOK0b7A==", "admin_user"=>{"email"=>"samharden@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (2.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "samharden@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 9ms (ActiveRecord: 2.1ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n87N5BFbosEMBXXwU1UxhMsvhPM7Uc6V0MUO7p4BfY/ksa4ncjd8wEnf0tBiyOHSDa3zn0vVQyGNXGHdOK0b7A==", "admin_user"=>{"email"=>"samharden@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (22.5ms)
+Completed 200 OK in 249ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-10-03 20:16:56 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sBNnWbMSnSo6YWuufV4b9uWVHjGU6NSYmvjENYmjQFTLbASa0H5DK3+7zI5Mw8ugIxdpXeRsWSzHYasGLw8mNw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.5ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sBNnWbMSnSo6YWuufV4b9uWVHjGU6NSYmvjENYmjQFTLbASa0H5DK3+7zI5Mw8ugIxdpXeRsWSzHYasGLw8mNw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.8ms)
+Completed 200 OK in 246ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8420422316885352480);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(8420422316885352480)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAdminUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "admin@example.com"], ["encrypted_password", "$2a$11$rvbxKA5tJdX5V.pdR9h1VeHw2DLgvNxsO7f3yFD/xOZyWC7UN195e"], ["created_at", "2017-10-04 00:18:14.178976"], ["updated_at", "2017-10-04 00:18:14.178976"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/admin/login" for 127.0.0.1 at 2017-10-03 20:18:35 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/shared/_links.erb (3.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (45.4ms)
+Completed 200 OK in 694ms (Views: 664.2ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-10-03 20:18:43 -0400
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCBr5EkdsMQHGlbj80oDn2XNM1pCvQIReQEllpszPWEjXwgnKnFuxULA8cPC19PJo09ENjI5j6UkmEqlPZ9bAg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "current_sign_in_ip" = $3, "last_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "admin_users"."id" = $7[0m  [["current_sign_in_at", "2017-10-04 00:18:43.287850"], ["last_sign_in_at", "2017-10-04 00:18:43.287850"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2017-10-04 00:18:43.289242"], ["id", 1]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 158ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-10-03 20:18:43 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (92.6ms)
+Completed 200 OK in 100ms (Views: 96.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-10-03 20:18:52 -0400
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb (163.5ms)
+Completed 200 OK in 177ms (Views: 170.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:19:03 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (142.8ms)
+Completed 200 OK in 149ms (Views: 145.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:24:33 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (191.7ms)
+Completed 200 OK in 219ms (Views: 199.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-10-03 20:24:34 -0400
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb (223.3ms)
+Completed 200 OK in 240ms (Views: 231.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:24:36 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (114.9ms)
+Completed 200 OK in 121ms (Views: 118.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:27:42 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (139.4ms)
+Completed 200 OK in 166ms (Views: 143.3ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2017-10-03 20:27:45 -0400
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb (194.0ms)
+Completed 200 OK in 211ms (Views: 201.7ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:28:08 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (94.2ms)
+Completed 200 OK in 101ms (Views: 97.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:38:33 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (321.4ms)
+Completed 200 OK in 352ms (Views: 330.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2017-10-03 20:39:20 -0400
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/resource/index.html.arb (211.8ms)
+Completed 200 OK in 224ms (Views: 217.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/admin/dashboard" for 127.0.0.1 at 2017-10-03 20:39:22 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/bundler/gems/activeadmin-f28a4e0fb315/app/views/active_admin/page/index.html.arb (116.9ms)
+Completed 200 OK in 125ms (Views: 121.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-04 20:02:12 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (19.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (7.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (42.3ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 869ms (Views: 834.7ms | ActiveRecord: 18.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-04 20:02:21 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered shared/_navbar.html.erb (5.7ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 232ms (Views: 226.5ms | ActiveRecord: 3.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2017-10-04 20:02:24 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hHt+uZSpBO5Hk25uuPGCf8R+hqW4QU6i78+5NGXizaqEhvywksC/mdSBvskjWbuh2Ly7Gb5jyx6XFgBB2eQlZQ=="}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (6.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-04 20:02:25 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (8.0ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 222ms (Views: 220.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-04 20:02:27 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 219ms (Views: 213.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-04 20:02:30 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flash.html.erb (0.9ms)
+Completed 200 OK in 197ms (Views: 194.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-04 20:02:34 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (7.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.9ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 199ms (Views: 186.5ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-04 20:02:34 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.7ms)
+  Rendered shared/_navbar.html.erb (2.8ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 227ms (Views: 224.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-04 20:02:36 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.5ms)
+  Rendered shared/_navbar.html.erb (1.7ms)
+  Rendered shared/_flash.html.erb (1.3ms)
+Completed 200 OK in 233ms (Views: 231.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-04 20:02:38 -0400
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (2.1ms)
+  Rendered shared/_flash.html.erb (0.7ms)
+Completed 200 OK in 191ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-07 06:18:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (18.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#checklist as HTML
+  Rendering static_pages/checklist.html.erb within layouts/application
+  Rendered static_pages/checklist.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (4.4ms)
+  Rendered shared/_flash.html.erb (0.6ms)
+Completed 200 OK in 801ms (Views: 788.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-07 06:18:38 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.2ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 146ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-07 06:18:40 -0400
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (27.8ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 144.2ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2017-10-07 06:18:41 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.9ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_flash.html.erb (0.5ms)
+Completed 200 OK in 162ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2017-10-07 06:18:42 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flash.html.erb (0.8ms)
+Completed 200 OK in 258ms (Views: 256.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/moreInfo" for 127.0.0.1 at 2017-10-07 06:18:43 -0400
+Processing by StaticPagesController#moreInfo as HTML
+  Rendering static_pages/moreInfo.html.erb within layouts/application
+  Rendered static_pages/moreInfo.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_flash.html.erb (1.3ms)
+Completed 200 OK in 237ms (Views: 234.4ms | ActiveRecord: 0.0ms)
+
+
