@@ -6,7 +6,7 @@ This web app is being designed for Code for Tampa Bay's Hack Zika 2017. It's des
 
 Thanks to Code for Tampa Bay for putting on the [Hackathon](http://codefortampabay.org/zika-hackathon/), for their excellent mosquito control resources, and bootstrap for making the front end quick and easy to get up and running.
 
-The back-end part of the website can be found at digital-mosquito-inspector.herokuapp.com and the front end can be found at s9m00001.site
+The back-end part of the website can be found at [digital-mosquito-inspector.herokuapp.com](digital-mosquito-inspector.herokuapp.com) and the front end can be found at [s9m00001.site](s9m00001.site)
 
 For Admin Panel:
 After Heroku deploy run:
